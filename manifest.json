@@ -1,14 +1,16 @@
 {
+  "manifest_version": 2,
   "name": "Reverse Archive-It",
-  "version": "0.1",
+  "version": "0.1.1",
   "description": "Returns the collection IDs to which the current URL belongs.",
   "browser_action": {
     "default_icon": "reverseArchiveItIcon.png",
-	"popup": "popup.html"
+	"default_popup": "popup.html",
+	"default_title": "Reverse Archive-It"
   },
+  
   "permissions": [
     "tabs",
-	"http://cs695.matkelly.com/",
-	"http://cs695.matkelly.com"
+	"http://cs695.matkelly.com/"
   ]
 }
